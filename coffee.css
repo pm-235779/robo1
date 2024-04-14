@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  
+}
+body{
+    background-color:black;
+}
+.main{
+    
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/555/34/486/digital-art-robot-3d-technology-wallpaper-preview.jpg);
+    background-size: max(120px,100vw);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.main ul{
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    z-index: 10;
+    justify-content: space-between;
+}
+.main ul li{
+    cursor: pointer;
+
+}
+
+.main ul li:hover{
+    text-decoration: underline;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+}
+
+nav div {
+    display: flex;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+} 
+
+.btn{
+    margin-top: -5px;
+    margin-right: 5px;
+    padding: 10px 13px 10px 13px ;
+    background-color: rgb(162, 90, 62);
+border-radius: 13px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+.btn1{
+padding: 7.5px 48px 9px 48px;
+background-color: rgb(162, 90, 62);
+border-radius: 13px;
+color: white;
+font-size: 20px;
+
+border: .5px solid rgb(40, 13, 3);
+cursor: pointer;
+
+}
+
+.btn1:hover{
+    box-shadow: 1px 1px 1px 1px rgb(162, 90, 62);
+}
+.hero{
+    height: calc(100% - 53px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 17px;
+    position: relative;
+    padding:  0px 30px;
+    
+}
+
+/* .separation{
+   width: 95vw;
+} */
+
+.s{
+    top: 100px;
+    height: 5px;
+    width: 43%;
+    background-color: rgb(159, 87, 59);
+    display: inline-block;
+  
+}
+
+p{
+    font-size: 16.5px;
+    display: inline-block;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bold;
+}
+
+#services-container{
+    padding: 30px;
+    padding-right: 0;
+}
+
+#service-container li {
+    color: white;
+}
+#services {
+    margin: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    color: white;
+}
+
+#services .box {
+
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 5px 5px 5px 5px rgb(44, 47, 48);
+    cursor: pointer;
+    
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* #services .box :hover{
+    box-shadow: 10px 10px 10px 10px rgb(44, 47, 48);
+} */
+
+#services .box img {
+    
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    width: 284px;
+    height: 210px;
+    ;
+}
+.boxi{
+    margin-top: 15px;
+}
+
+.order{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    margin-top: 20px;
+    
+    padding: 5px;
+    padding-left: 12px;
+}
+
+.order button{
+    padding: 15px 30px 15px 30px;
+    margin: 5px;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    background-color:rgb(159, 87, 59) ;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.order button:hover{
+    box-shadow: 10px 10px 10px 10px rgb(44, 47, 48);
+}
+.brands1{
+    margin: 45px 10px 100px 45px;
+    padding: 10px;
+}
+.brands{
+    display: flex;
+    list-style-type: none;
+    gap:8px;
+}
+
+.brands img{
+    width: 360px;
+    text-decoration: none;
+  aspect-ratio: 3/2;
+object-fit: contain;
+}
+
+.touch{
+    background-color: rgb(191, 129, 102);
+    padding: 40px;
+}
+
+.list{
+    display: flex;
+    margin-left: 126px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+    justify-content: space-between;
+    /* color: rgba(255,255,255,0.7) ; */
+  
+}
+
+.list1 ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.list1 ul li{
+    font-size: 21px;
+    font-weight: 450;
+    color: white;
+    cursor: pointer;
+}
+
+.list1 img{
+    width: 65px;
+    aspect-ratio: 3/2;
+object-fit: contain;
+}
+
+.list2 ul{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.final{
+    
+    height: 4px;
+    background-color: white;
+}
